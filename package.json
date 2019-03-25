@@ -1,0 +1,41 @@
+{
+    "name": "discuz-bbcode",
+    "version": "0.3.0",
+    "author": {
+        "name": "Anrip Wong",
+        "email": "mail@anrip.com",
+        "url": "http://www.anrip.com/"
+    },
+    "homepage": "https://github.com/anrip/discuz-bbcode#readme",
+    "description": "Discuz bbcode parser",
+    "license": "Apache-2.0",
+    "keywords": [
+        "discuz",
+        "bbcode",
+        "ubb"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anrip/discuz-bbcode.git"
+    },
+    "bugs": {
+        "url": "https://github.com/anrip/discuz-bbcode/issues"
+    },
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "start": "webpack-dev-server --config webpack.dev.js"
+    },
+    "main": "index.js",
+    "devDependencies": {
+        "@babel/core": "^7.2.2",
+        "@babel/preset-env": "^7.2.3",
+        "babel-loader": "^8.0.5",
+        "copy-webpack-plugin": "^4.6.0",
+        "css-loader": "^1.0.1",
+        "eslint": "^5.12.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.28.3",
+        "webpack-cli": "^3.2.1",
+        "webpack-dev-server": "^3.1.14"
+    }
+}
